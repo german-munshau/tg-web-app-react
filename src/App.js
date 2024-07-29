@@ -14,7 +14,9 @@ function App() {
 
     return (
         <div className="App">
+            1.
             <Header/>
+            2.
             <button onClick={onToggle}>Toggle</button>
         </div>
     );
