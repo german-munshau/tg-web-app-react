@@ -17,7 +17,6 @@ function App() {
 
     return (
         <div className="App">
-            {/*<button onClick={onToggle}>Toggle</button>*/}
             <Header/>
             <Routes>
                 <Route index element={<ProductList/>}/>
