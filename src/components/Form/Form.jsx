@@ -25,7 +25,7 @@ const Form = () => {
         } else {
             tg.MainButton.show()
         }
-    }, [street, country])
+    }, [street, country, tg.MainButton])
 
     const onChangeStreet = (e) => {
         setStreet(e.target.value)
