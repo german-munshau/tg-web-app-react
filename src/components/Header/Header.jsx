@@ -8,8 +8,8 @@ const Header = () => {
 
     return (
         <div className={'header'}>
-            <Button onClick={onClose}>Закрыть окно3</Button>
-            <span className={'username'}>User: {user}</span>
+            <Button onClick={onClose}>Закрыть окно</Button>
+            <span className={'username'}>User: {user?.username}</span>
         </div>
     );
 };
