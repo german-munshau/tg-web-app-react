@@ -8,7 +8,7 @@ import Form from "./components/Form/Form";
 
 
 function App() {
-    const {tg, onToggle} = useTelegram()
+    const {tg} = useTelegram()
 
     useEffect(() => {
         tg.ready();
