@@ -3,12 +3,9 @@
     height: 50px;
     display: flex;
     padding: 0 20px;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.username {
-    /*margin-left: auto;*/
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .username_info {
