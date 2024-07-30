@@ -13,7 +13,7 @@ const Form = () => {
         tg.MainButton.setParams({
             text: 'Отправить данные'
         })
-    }, [tg])
+    }, [tg.MainButton])
 
     const onChangeCountry = (e) => {
         setCountry(e.target.value)
