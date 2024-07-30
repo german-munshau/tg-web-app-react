@@ -10,7 +10,10 @@ const Header = () => {
         <div className={'header'}>
             Header
             <Button onClick={onClose}>Закрыть окно</Button>
-            <span className={'username'}>User: {user?.username || user?.first_name || user?.last_name || user?.id || 'пусто'}</span>
+            <span className={'username'}>first_name: {user?.first_name}</span>
+            <span className={'username'}>last_name: {user?.last_name}</span>
+            <span className={'username'}>username: {user?.username}</span>
+            <span className={'username'}>id: {user?.id}</span>
         </div>
     );
 };
