@@ -8,3 +8,13 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
+/*
+*   "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+* */
