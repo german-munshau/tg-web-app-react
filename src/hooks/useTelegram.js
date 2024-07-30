@@ -8,7 +8,9 @@ export function useTelegram() {
     const onToggle = () => {
         if (tg.MainButton.isVisible) {
             tg.MainButton.hide()
-        } else tg.MainButton.show()
+        } else {
+            tg.MainButton.show()
+        }
     }
     return {
         tg,
